@@ -1,0 +1,12 @@
+version: '2'
+services:
+  swagger-ui-dcoker:
+    build: .
+    environment:
+      DEFAULT_MODELS_EXPAND_DEPTH: -1
+      DOC_EXPANSION: "NONE"
+      URLS: "[
+      { url: \"/dev/api/swagger-api-docs.json\", name: \" swagger\" }
+      ]"
+    ports:
+      - "1234:8080"
