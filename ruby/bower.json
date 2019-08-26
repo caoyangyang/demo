@@ -1,0 +1,20 @@
+{
+  "name": "faceU",
+  "version": "0.0.1",
+  "homepage": "https://github.com/caoyangyang/FaceU",
+  "authors": [
+    "yycao <yycao@thoughtworks.com>"
+  ],
+  "description": "face u and meet u",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "~4.6.3"
+  }
+}
