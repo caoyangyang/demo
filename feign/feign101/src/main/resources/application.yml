@@ -1,0 +1,16 @@
+---
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 2000
+        readTimeout: 5000
+        loggerLevel: basic
+      DoubanReadFeignClient:
+        loggerLevel: basic
+      DoubanBookFeignClient:
+        loggerLevel: none
+logging:
+  level:
+    com.tw.feign101.client.DoubanBookClient: DEBUG
+    com.tw.feign101.client.DoubanReadClient: DEBUG
